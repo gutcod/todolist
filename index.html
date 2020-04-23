@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Todolist</title>
+	
+</head>
+<header>
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12 col-md-12 col-lg-6">
+				<!-- logo (h1 element) -->
+				<h1 class="mainHeader">
+					<i class="fas fa-shopping-basket"></i>TODO<span>List</span>
+				</h1> <!-- end of h1 -->
+
+				<!-- 3 borders color under the h1 element -->
+				<div class="borderBottom borderColor1">
+				</div> <!-- end of borderBottom -->
+				<h2>How to use?</h2>
+				<ol class="guide">
+					<li class="guideList">Click on <strong>"Enter items!"</strong>, type what you need
+					and click on the <strong>Add</strong> button.</li>
+					<li class="guideList">You can remove items by clikcking on the <strong>Red X</strong> button.</li>
+					<li class="guideList">You can mark items as done by clicking on the items.</li>
+				</ol>
+			</div> <!-- end of column -->
+		</div>	<!-- end of row -->
+	</div> <!-- end of container -->
+</header> <!-- end of header -->
+
+<!-- main content 
+	starts here -->
+
+<section class="shoppingList">
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12 col-md-12 col-lg-12 listContainer">
+				<input id="userinput" type="text" placeholder="Enter items!">
+				<button id="add"><i class="fas fa-cart-plus"></i>Add</button>
+				<div class="space"></div>
+				<!-- shopping list -->
+				<ul class="shopList">
+					<!-- list items are added using HTML DOM -->
+				</ul>
+			</div> <!-- end of column -->
+		</div>	<!-- end of row -->
+	</div> <!-- end of container -->
+</section> <!-- end of section -->
+
+<footer>
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-12">
+				<p>2020 &copy; Made by Andrei Gutan</p>       
+			</div> <!-- end of column -->
+		</div>	<!-- end of row -->
+	</div> <!-- end of container -->
+</footer> <!-- end of footer -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>
